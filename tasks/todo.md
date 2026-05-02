@@ -19,9 +19,26 @@
   - [ ] Add facilitation notes to each slide (for Dennis, not shown to participants)
 
 ### Skills
-- [ ] Build starter CLAUDE.md template/skill
-  - [ ] Guided questions that help participants write their own CLAUDE.md
-  - [ ] Installable and usable independently after the workshop
+- [x] Build "project onboarding" skill for practitioners → `/begin`
+  - [x] Walks through CLAUDE.md + SOUL.md + rules in one guided flow
+  - [x] Auto-creates SOUL.md and wires it into the CLAUDE.md
+  - [x] Written in practitioner language, not developer language
+  - [x] Distinct from /harness-init (which is developer-facing)
+  - [x] Installable and usable independently after the workshop
+  - Lives in: `thedennisxiao/attuned-coding-skills` (private, will go public before first cohort)
+  - Tested across 5 personas (engaged, wary, vague, sparse-existing, has-user-CLAUDE.md)
+- [ ] Build "clearness" skill — Quaker clearness committee for project ideation
+  - [ ] Phase 1 (workshop): surface threads — what's beautiful, challenging, worth changing
+  - [ ] Phase 2 (overnight/ongoing): deepen a thread with open, precise questions
+  - [ ] Clearness committee tone: no fixing, no prescribing, just illuminating
+  - [ ] Questions like: "What draws you to this?" / "Who is this really for?" /
+    "What's the simplest version that would still matter?" / "What are you afraid of?"
+  - [ ] Handed to participants at end of Day 1 as the overnight companion
+  - [ ] Usable independently after the workshop
+- [ ] Flesh out pre-workshop pack with skill installation
+  - [ ] Skills installed before the day, not during
+  - [ ] Pre-workshop guide covers: what each skill does, how to invoke it
+  - [ ] Day-of: Dennis demos a skill live so they see how it works
 - [ ] Identify and finalize custom skills for first cohort
 - [ ] Test skill installation flow with a non-technical participant
 
@@ -81,3 +98,4 @@
 - [x] PRE-WORKSHOP.md — participant checklist and questions to sit with
 - [x] CLAUDE.md — project-level instructions
 - [x] GitHub repo created (thedennisxiao/attuned-coding)
+- [x] `/begin` skill built, tested, and packaged (`thedennisxiao/attuned-coding-skills`)

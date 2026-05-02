@@ -13,3 +13,7 @@
 .env
 .env.local
 .env*.local
+
+# Skills are developed in this folder but live in their own repo
+# (thedennisxiao/attuned-coding-skills). Don't track here to avoid drift.
+skills/
