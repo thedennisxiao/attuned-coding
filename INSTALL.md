@@ -95,16 +95,30 @@ any new project: who you are, what you're making, and how Claude should
 work with you on it. You'll meet it on the day, and you'll have it forever
 after, for any project you ever start.
 
-To install it, in Terminal (with `claude` running), type:
+To install it, with `claude` running, type each of these one at a time
+and press Enter after each:
 
 ```
-[DENNIS: the /skill install command pointing at thedennisxiao/attuned-coding-skills,
- once the repo is public. Until then, this can be a manual download + place into
- ~/.claude/skills/begin/ from the .skill file.]
+/plugin marketplace add thedennisxiao/attuned-coding-skills
 ```
 
-If one of them gives an error, don't worry. Email Dennis with the
-error message and we'll sort it together.
+```
+/plugin install begin@attuned-coding
+```
+
+That's it. You can now type `/begin` anytime you start a new project,
+during the workshop and on your own afterwards.
+
+### Optional: turn on auto-updates
+
+If you'd like `/begin` to update itself when Dennis pushes a new
+version, type `/plugin` in Claude Code, open the **Marketplaces** tab,
+find **attuned-coding**, and toggle auto-update on. You'll be prompted
+to reload before any new version is active. Skip this if you'd rather
+know when things change.
+
+If anything gives an error, don't worry. Email Dennis with the error
+message and we'll sort it together.
 
 ---
 
